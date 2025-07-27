@@ -18,11 +18,13 @@ A simple full-stack Task Management web application built using  React.js (front
 🛠️ Setup Instructions
 
 1. Clone the repository
+   
    ```bash
      git clone https://github.com/benisontr/Task-Manager.git
      cd Task-Manager
 
 2. Backend Setup
+
    ```bash
     cd backend
     npm install
@@ -34,6 +36,7 @@ A simple full-stack Task Management web application built using  React.js (front
   The backend will run on: http://localhost:5000/api/tasks
 
 3. Frontend Setup
+
    ```bash
     cd ../frontend
     npm install
