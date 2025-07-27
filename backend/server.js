@@ -21,7 +21,7 @@ useUnifiedTopology: true,
 
 .then(() => {
 console.log('Connected to MongoDB Atlas');
-app.listen(PORT, () => console.log('Server running on port ${PORT}'));
+app.listen(PORT, () => console.log(` Server running on port ${PORT}`));
 })
 
 .catch((err) => {
