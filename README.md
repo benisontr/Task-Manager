@@ -2,24 +2,6 @@
 
 A simple full-stack Task Management web application built using  React (frontend), Node.js, Express, and MongoDB Atlas (backend). This app allows users to create, update, delete, and manage tasks with due dates and status labels.
 
-📂 Project Structure
-
-TaskManager/
-│
-├── backend/ # Express.js server
-│ ├── routes/ # API routes
-│ ├── models/ # Mongoose schemas
-│ ├── .env # Environment variables (Mongo URI, PORT)
-│ └── server.js # Entry point for backend
-│
-├── frontend/ # React app (Vite)
-│ ├── src/
-│ │ ├── pages/ # AddTask, EditTask, TaskList
-│ │ └── App.jsx # Route configuration
-│ ├── .env # VITE_API_BASE_URL (backend link)
-│ └── vite.config.js # Vite configuration
-
-
 ⚙️ Features
 
 - ✅ Add, edit, and list tasks
