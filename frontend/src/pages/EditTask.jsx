@@ -16,7 +16,7 @@ const EditTask = () => {
 
   useEffect(() => {
     const fetchTask = async () => {
-      const res = await axios.get(`${import.meta.env.VITE_API_BASE_URL}/api/tasks/${id}`);
+      const res = await axios.get(`http://localhost:5000/api/tasks/${id}`);
       setTask(res.data);
     };
     fetchTask();
@@ -28,7 +28,7 @@ const EditTask = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await axios.put(`${import.meta.env.VITE_API_BASE_URL}/api/tasks/${id}`, task);
+    await axios.put(`http://localhost:5000/api/tasks/${id}`, task);
     navigate('/');
   };
 
