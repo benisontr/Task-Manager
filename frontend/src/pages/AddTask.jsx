@@ -19,7 +19,7 @@ const AddTask = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await axios.post(`${process.env.REACT_APP_API_URL}/api/tasks`, task);
+    await axios.post(`${import.meta.env.VITE_API_BASE_URL}/api/tasks`, task);
     navigate('/');
   };
 

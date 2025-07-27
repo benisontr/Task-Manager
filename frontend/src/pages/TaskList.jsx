@@ -7,7 +7,7 @@ const TaskList = () => {
   const [tasks, setTasks] = useState([]);
 
   const fetchTasks = async () => {
-    const res = await axios.get(`${process.env.REACT_APP_API_URL}/api/tasks`);
+    const res = await axios.get(`${import.meta.env.VITE_API_BASE_URL}/api/tasks`);
     setTasks(res.data);
   };
 
