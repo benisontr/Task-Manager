@@ -16,7 +16,7 @@ const EditTask = () => {
 
   useEffect(() => {
     const fetchTask = async () => {
-      const res = await axios.get(`${process.env.REACT_APP_API_URL}/api/tasks/${id}`);
+      const res = await axios.get(`${import.meta.env.VITE_API_BASE_URL}/api/tasks/${id}`);
       setTask(res.data);
     };
     fetchTask();
