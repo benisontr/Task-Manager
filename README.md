@@ -1,6 +1,6 @@
 📝 Task Manager Web Application
 
-A simple full-stack Task Management web application built using  React (frontend), Node.js, Express, and MongoDB Atlas (backend). This app allows users to create, update, delete, and manage tasks with due dates and status labels.
+A simple full-stack Task Management web application built using  React.js (frontend), Node.js, Express.js, and MongoDB Atlas (backend). This app allows users to create, update, delete, and manage tasks with due dates and status labels.
 
 ⚙️ Features
 
